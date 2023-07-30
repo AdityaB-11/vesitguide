@@ -3,10 +3,10 @@ import { Text, View, Pressable } from "react-native";
  
 export default function App() {
   return (
-    <View className="flex-1 items-center justify-center bg-white">
+    <View className="flex-1 items-center justify-center bg-green-200">
       <Pressable>
         <Text className=" bg-blue-500 hover:bg-blue-700 text-pink-300 font-bold py-2 px-4 rounded-full">
-          Login using Vesid
+          Login using Vesit
         </Text>
       </Pressable>
 
