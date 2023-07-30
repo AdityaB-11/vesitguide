@@ -1,6 +1,6 @@
 
 module.exports = {
-  content: ["./welcome.{js,jsx,ts,tsx}"],
+  content: ["./App/welcome.{js,jsx,ts,tsx}"],
   theme: {
     extend: {},
   },
