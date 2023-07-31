@@ -5,7 +5,7 @@ export default function welcome() {
   return (
     <View className="flex-1 items-center justify-center bg-orange-100">
       <Image
-        source={require("/Users/adityabhogil/vesitguide/assets/logo.png")}
+        source={require("vesitguide/assets/logo.png")}
         className="w-1/3 h-1/6 rounded-3xl "
       ></Image>
 
@@ -14,7 +14,7 @@ export default function welcome() {
       </Text>
       <Pressable>
         <Text className="bg-purple-400 hover:bg-purple-400 text-white font-bold py-2 px-4 border-b-4 border-purple-400 hover:border-purple-500 rounded text-2xl mt-20">
-          Login using Vesid 
+          Login using Vesid
         </Text>
       </Pressable>
 
