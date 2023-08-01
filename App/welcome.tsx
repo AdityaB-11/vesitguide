@@ -3,7 +3,7 @@ import { Text, View, Pressable, Image } from "react-native";
 
 export default function Welcome() {
   return (
-    <View className="flex-1 items-center justify-center bg-orange-100">
+    <View className="flex-1 items-center justify-center bg-gray-300">
       <Image
         source={require("vesitguide/assets/logo.png")}
         className="w-1/3 h-1/6 rounded-3xl "
